@@ -110,10 +110,10 @@
               <div
                 class="row mx-auto justify-content-center align-items-center"
               >
-                <img src="../assets/ss2.png" class="ss p-0 mx-2 mb-3 shadow" />
                 <img src="../assets/ss1.png" class="ss p-0 mx-2 mb-3 shadow" />
-                <img src="../assets/ss3.png" class="ss p-0 mx-2 mb-3 shadow" />
                 <img src="../assets/ss2.png" class="ss p-0 mx-2 mb-3 shadow" />
+                <img src="../assets/ss3.png" class="ss p-0 mx-2 mb-3 shadow" />
+                <img src="../assets/ss4.png" class="ss p-0 mx-2 mb-3 shadow" />
               </div>
             </div>
           </div>
@@ -154,11 +154,11 @@
 
     <div class="footer bg-black pt-3 text-light">
       <div class="sites align-items-center">
-        <a class="mx-3 align-items-center" href="">
+        <a class="mx-3 align-items-center" target="_blank" href="https://soncraft.netlify.app">
           <img class="icon" src="../assets/soncraft-logo.png" alt="" />
           SONCRAFT</a
         >
-        <a class="mx-3 align-items-center" href="">
+        <a class="mx-3 align-items-center" target="_blank" href="https://soncraft.itch.io">
           <img
             class="icon"
             src="https://samirgeorgy.files.wordpress.com/2020/01/itchio-textless-icon.png"
