@@ -11,11 +11,19 @@
             PHILIPPINES
           </h3>
           <div class="downloads text-light row">
-            <a class="btn-dl col bg-black" target="_blank" href="https://drive.google.com/u/0/uc?export=download&confirm=J-Ue&id=1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh">
+            <a
+              class="btn-dl col bg-black"
+              target="_blank"
+              href="https://drive.google.com/u/0/uc?export=download&confirm=J-Ue&id=1aJoCzor-lsmTSuOYFH98uNQJ8-51vbgh"
+            >
               <img class="icon" src="../assets/windows.png" alt="" />
               Windows
             </a>
-            <a class="btn-dl col bg-black" target="_blank" href="https://drive.google.com/u/0/uc?export=download&confirm=WyKC&id=1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME">
+            <a
+              class="btn-dl col bg-black"
+              target="_blank"
+              href="https://drive.google.com/u/0/uc?export=download&confirm=WyKC&id=1JIAoJmbQWb3v95E3EdX2fMLNCOMgwmME"
+            >
               <img class="icon" src="../assets/android.png" alt="" />
               Android
             </a>
@@ -90,9 +98,7 @@
       <div class="content flex-column d-flex justify-content-between">
         <div class="media d-flex justify-content-center">
           <div class="row" style="width: 90vw">
-            <h1 class="text-dark my-5 pt-5 fw-bold">
-              GAME TRAILER AND SCREENSHOTS
-            </h1>
+            <h1 class="text-dark pt-5 fw-bold">GAME TRAILER AND SCREENSHOTS</h1>
 
             <div class="col">
               <div class="box">
@@ -110,10 +116,40 @@
               <div
                 class="row mx-auto justify-content-center align-items-center"
               >
-                <img src="../assets/ss1.png" class="ss p-0 mx-2 mb-3 shadow" />
-                <img src="../assets/ss2.png" class="ss p-0 mx-2 mb-3 shadow" />
-                <img src="../assets/ss3.png" class="ss p-0 mx-2 mb-3 shadow" />
-                <img src="../assets/ss4.png" class="ss p-0 mx-2 mb-3 shadow" />
+                <div class="ss d-flex flex-column align-items-center mx-2 mb-1">
+                  <img
+                    src="../assets/ss4.png"
+                    class="outline shadow"
+                    style="width: inherit"
+                  />
+                  <p class="p-0 m-0 mt-1 fw-bold text-black">STORY</p>
+                </div>
+                <div class="ss d-flex flex-column align-items-center mx-2 mb-1">
+                  <img
+                    src="../assets/ss3.png"
+                    class="outline shadow"
+                    style="width: inherit"
+                  />
+                  <p class="p-0 m-0 mt-1 fw-bold text-black">
+                    OBJECTIVES
+                  </p>
+                </div>
+                <div class="ss d-flex flex-column align-items-center mx-2 mb-1">
+                  <img
+                    src="../assets/ss2.png"
+                    class="outline shadow"
+                    style="width: inherit"
+                  />
+                  <p class="p-0 m-0 mt-1 fw-bold text-black">COMBAT</p>
+                </div>
+                <div class="ss d-flex flex-column align-items-center mx-2 mb-1">
+                  <img
+                    src="../assets/ss1.png"
+                    class="outline shadow"
+                    style="width: inherit"
+                  />
+                  <p class="p-0 m-0 mt-1 fw-bold text-black">PUZZLE</p>
+                </div>
               </div>
             </div>
           </div>
@@ -154,11 +190,19 @@
 
     <div class="footer bg-black pt-3 text-light">
       <div class="sites align-items-center">
-        <a class="mx-3 align-items-center" target="_blank" href="https://soncraft.netlify.app">
+        <a
+          class="mx-3 align-items-center"
+          target="_blank"
+          href="https://soncraft.netlify.app"
+        >
           <img class="icon" src="../assets/soncraft-logo.png" alt="" />
           SONCRAFT</a
         >
-        <a class="mx-3 align-items-center" target="_blank" href="https://soncraft.itch.io">
+        <a
+          class="mx-3 align-items-center"
+          target="_blank"
+          href="https://soncraft.itch.io"
+        >
           <img
             class="icon"
             src="https://samirgeorgy.files.wordpress.com/2020/01/itchio-textless-icon.png"
@@ -262,8 +306,20 @@ section,
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.media h1 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-size: 4em;
+}
+
 .ss {
-  width: 20em;
+  width: 22em;
+}
+.ss p{
+  font-size: 1.5em;
+}
+.outline {
   outline: #000000 2px solid;
 }
 .shadow {
@@ -273,8 +329,8 @@ section,
 }
 iframe {
   outline: #000000 2px solid;
-  width: 700px;
-  height: 400px;
+  width: 750px;
+  height: 450px;
 }
 
 .footer .text p {
@@ -290,11 +346,19 @@ iframe {
 @media screen and (max-width: 1600px) {
   iframe {
     width: 500px;
-    height: 300px;
+    height: 320px;
+  }
+  .media h1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 2.5em;
   }
   .ss {
     width: 15em;
   }
+  .ss p{
+  font-size: 1.2em;
+}
   .qr,
   .edge {
     width: 7em;
@@ -339,23 +403,30 @@ iframe {
     padding-left: 2em;
     padding-right: 2em;
   }
+
+  .media h1 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+  }
+
   iframe {
     width: 300px;
     height: 180px;
     margin-bottom: 1em;
   }
   .ss {
-    width: 8em;
+    width: 8.5em;
   }
   .footer .text p {
     width: 90vw;
-    font-size: .75em;
+    font-size: 0.75em;
   }
   .edge-trap {
     width: 10em;
   }
   .hero {
-  background-image: url("../assets/game-bg-mobile.png");
-}
+    background-image: url("../assets/game-bg-mobile.png");
+  }
 }
 </style>
