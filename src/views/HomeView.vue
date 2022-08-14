@@ -416,7 +416,7 @@ iframe {
     margin-bottom: 1em;
   }
   .ss {
-    width: 8.5em;
+    width: 8em;
   }
   .footer .text p {
     width: 90vw;
